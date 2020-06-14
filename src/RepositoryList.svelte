@@ -7,12 +7,10 @@
   export let term;
 </script>
 
-<table class="repository-list">
-  <Header/>
-  {#each items as item, i}
-    <RepositoryItem {term} {item} {loading} orderId={i} />
-  {/each}
-</table>
+<Header/>
+{#each items as item, i}
+  <RepositoryItem {term} {item} {loading} orderId={i} />
+{/each}
 
 <style>
   .repository-list {

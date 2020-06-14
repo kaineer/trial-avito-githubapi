@@ -54,14 +54,16 @@
 
 {#if items}
   {#if items.length > 0}
-    <RepositoryList {term} {items} {loading} />
-    {#if items.length > 1}
-      <Paginator
-                   {pageUrlGenerator}
-                   total={Math.ceil(total_count / 10)}
-                   max={10}
-                   current={page} />
-    {/if}
+    <div style="width:840px; margin-left: auto; margin-right: auto;">
+      <RepositoryList {term} {items} {loading} />
+      {#if items.length > 1}
+        <Paginator
+         {pageUrlGenerator}
+         total={Math.ceil(total_count / 10)}
+         max={10}
+         current={page} />
+      {/if}
+    </div>
   {:else}
     <div class="message">There's nothing here. Seriously.</div>
   {/if}

@@ -1,6 +1,7 @@
 // src/requests.js
 
 import {buildQuery} from './utils';
+import {token} from './config';
 
 const buildAPIUrl = (path, params) => {
   const host = 'https://api.github.com';
@@ -12,7 +13,7 @@ const buildAPIUrl = (path, params) => {
 
 const requestAuthorizedData = (path, params = {}) => {
   const headers = {
-    'Authorization': 'Token 9f3f4f144b7cb35a49fb55f79a900db9fa2f1be7'
+    'Authorization': 'Token '.concat(token)
   };
 
   const url = buildAPIUrl(path, params);
