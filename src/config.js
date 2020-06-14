@@ -4,11 +4,11 @@
 //
 // So, I'll try to do some simple magic.
 
-const t1 = 'c2bff299';
-const t2 = '201cb446';
-const t3 = 'efc8d3e3';
-const t4 = '755a030c';
-const t5 = 'b54dc776';
+const t1 = '180edb18';
+const t2 = 'e4b074ef';
+const t3 = 'd24534da';
+const t4 = 'd54f8849';
+const t5 = '68725b7c';
 
 module.exports = {
   // Personal token from github settings
