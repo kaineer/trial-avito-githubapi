@@ -7,3 +7,4 @@ url: https://github.com/avito-tech/pro-fe-trainee-task
  * github api
  * sveltejs
 
+Токен для доступа вынесен в файл src/config.js
