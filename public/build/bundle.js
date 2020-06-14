@@ -449,7 +449,7 @@ var app = (function () {
 
     const requestAuthorizedData = (path, params = {}) => {
       const headers = {
-        'Authorization': 'Token 6b92f7bdb9b529cf0b453f0f94607428c2e1f7af'
+        'Authorization': 'Token 5a831e64604659d62cd44a09df23259d8f3180b6'
       };
 
       const url = buildAPIUrl(path, params);
