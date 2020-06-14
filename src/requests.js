@@ -12,7 +12,7 @@ const buildAPIUrl = (path, params) => {
 
 const requestAuthorizedData = (path, params = {}) => {
   const headers = {
-    'Authorization': 'Token 5a831e64604659d62cd44a09df23259d8f3180b6'
+    'Authorization': 'Token 9f3f4f144b7cb35a49fb55f79a900db9fa2f1be7'
   };
 
   const url = buildAPIUrl(path, params);

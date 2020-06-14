@@ -11,8 +11,6 @@
   } from '../Repository/Table';
 
   export let item;
-  export let orderId;
-  export let loading;
   export let term;
 
   const repositoryUrl = (item) => {
@@ -49,16 +47,6 @@
 
   .item.item-odd {
     background-color: #D4E7E7;
-  }
-
-  .item.item-loading {
-    color: #A9D9D9;
-    background-color: #D2E5E5;
-  }
-
-  tr.item.item-loading td a {
-    text-decoration: none;
-    color: #A9D9D9;
   }
 
   .item td {
